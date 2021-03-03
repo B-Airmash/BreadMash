@@ -1,1 +1,158 @@
-# BreadMash
+[VM4B Server Explanation](https://github.com/B-Airmash/BreadMash/blob/main/Breadmash-Help/Information/vm4b%20Explanation.md)
+
+BreadMash Version Log
+-
+## v.1 (unfinished)
+### Game Features
+- Map (All Thanks To [x_play & his theme from starmash](https://github.com/TakenOrNot/badassplanestheme))
+     - Beach (All Sand)
+     - Water is now a lighter shade of Blue
+     - Big Skull near South America 
+- MiniMap
+     - Crowns For 1st 2nd & 3rd Place
+### Plane Skins
+- WWII/Rotor Styled Planes
+### Flags
+- Removed Confederate Flag 
+     - Replaced with Antifa
+
+- 140 Flags
+     - Ascension Island
+     - Afghanistan
+     - Antigua & Barbuda
+     - Anguilla
+     - Angola
+     - American Samoa
+     - Aruba
+     - Åland Islands
+     - Barbados
+     - Burkina Faso
+     - Burundi
+     - Benin
+     - St. Barthélemy
+     - Bermuda
+     - Brunei
+     - Bahamas
+     - Bouvet Island
+     - Botswana
+     - Belize
+     - Cocos (Keeling) Islands
+     - Democratic Republic of the Congo
+     - Central African Republic
+     - Republic of the Congo
+     - Ivory Coast
+     - Cook Islands
+     - Cameroon
+     - Clipperton Island
+     - Cape Verde
+     - Curaçao
+     - Christmas Island
+     - Diego Garcia
+     - Djibouti
+     - Dominica
+     - Ceuta & Melilla
+     - Western Sahara
+     - Eritrea
+     - Ethiopia
+     - Fiji
+     - Micronesia
+     - Faroe Islands
+     - Gabon
+     - Grenada
+     - French Guiana
+     - Guernsey
+     - Ghana
+     - Gibraltar
+     - Greenland
+     - Gambia
+     - Guinea
+     - Guadeloupe
+     - Equatorial Guinea
+     - South Georgia & South Sandwich Islands
+     - Guam
+     - Guinea-Bissau
+     - Guyana
+     - Heard & McDonald Islands
+     - Canary Islands
+     - British Indian Ocean Territory
+     - Jersey
+     - Kenya
+     - Kyrgyzstan
+     - Cambodia
+     - Kiribati
+     - Comoros
+     - St. Kitts & Nevis
+     - Kosovo
+     - Cayman Islands
+     - Laos
+     - St. Lucia
+     - Liberia
+     - Lesotho
+     - St. Martin
+     - Madagascar
+     - Marshall Islands
+     - Mali
+     - Myanmar (Burma)
+     - Mongolia
+     - Northern Mariana Islands
+     - Martinique
+     - Mauritania
+     - Montserrat
+     - Mauritius
+     - Maldives
+     - Malawi
+     - Mozambique
+     - Namibia
+     - New Caledonia
+     - Niger
+     - Norfolk Island
+     - Nicaragua
+     - Nauru
+     - Niue
+     - French Polynesia
+     - Papua New Guinea
+     - St. Pierre & Miquelon
+     - Pitcairn Islands
+     - Palestinian Territories
+     - Palau
+     - Réunion
+     - Rwanda
+     - Solomon Islands
+     - Seychelles
+     - Sudan
+     - St. Helena
+     - Svalbard & Jan Mayen
+     - Sierra Leone
+     - Senegal
+     - Suriname
+     - South Sudan
+     - São Tomé & Príncipe
+     - Sint Maarten
+     - Eswatini
+     - Tristan da Cunha
+     - Turks & Caicos Islands
+     - Chad
+     - French Southern Territories
+     - Togo
+     - Tajikistan
+     - Tokelau
+     - Timor-Leste
+     - Tonga
+     - Tuvalu
+     - Uganda
+     - U.S. Outlying Islands
+     - Vatican City
+     - St. Vincent & Grenadines
+     - British Virgin Islands
+     - U.S. Virgin Islands
+     - Vanuatu
+     - Wallis & Futuna
+     - Samoa
+     - Yemen
+     - Mayotte
+     - Zambia
+     - Zimbabwe
+     - England
+     - Scotland
+     - Wales
+     - Russian Imperial 1858
