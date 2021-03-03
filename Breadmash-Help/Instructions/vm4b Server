@@ -1,0 +1,14 @@
+_vm4b_Start_Up_
+the vm4b server only works with wight's ab-server Repo which is cloned to terminal
+cd ~/ab-server is the directory in terminal
+once in that directory, make a shell/screen by typing screen in the ab-server directory
+when screen has loaded up, type npm run start
+let load
+detach from screen by clicking ctrl+d then ctrl+a after
+
+_vm4b_Bot_Adding_
+to add bots you head to Spatie's ab-bots Repo which is cloned to terminal
+cd ~/ab-bots is the directory in the terminal
+once in that directory, make a shell/screen by typing screen in the ab-bots directory
+when screen has loaded up, type the line of your bots programming
+detach from screen by clicking ctrl+d then ctrl+a after
