@@ -1,0 +1,77 @@
+Simple Code to convert bad words:
+
+<html>
+<head>
+<script language="javascript">
+ <!--
+  function ProfanityFilter() {
+     var convert1 = document.modulo.mytext.value;
+     // Replace "bitch" with "good woman"
+     var convert2 = convert1.replace("bitch","good woman");
+         mydiv.innerHTML = convert2;
+  }
+ //-->
+</script>
+</head>
+ 
+<body>
+Try to write "son of a bitch"
+<form name="modulo">
+   <input type="text" name="mytext">
+   <input type="button" value="Filter" onClick="ProfanityFilter()">
+</form>
+ 
+<div id="mydiv"></div>
+</body>
+ 
+</html>
+
+
+
+
+An array of bad words:
+
+<html>
+<head>
+<script language="javascript">
+ <!--
+  function ProfanityFilter(text) {
+    // The array of bad words START
+    var swear_words_arr=new Array("fuck off","piss off","bugger off","damn","damned","dipshit","fuck","faggot","shit"); 
+    // The array of bad words END
+     
+    // A regular expression is an object that describes a pattern of characters 
+    // We must to find a match at the beginning/end of a word
+    // It is different "bad oo" and "badoo"
+    // Without "var regex" control, you find a match between "bad oo" and "badoo" because there is "bad" in both sentences
+    var regex = new RegExp('\\b(' + swear_words_arr.join('|') + ')\\b', 'i' );
+  
+    // Get form content
+    var alltext = document.modulo.mytext.value;
+    var alltext = text;
+     
+    // Bad words controller START
+    if(regex.test(alltext)) {
+        alert("Please refrain from using offensive words!"); /* alert box */     
+        // Using – return – the function will stop executing, and return the specified value.
+        return false;
+         }
+    else {
+        alert("You are a good guy! There is not bad words!"); /* alert box */
+        } 
+     // Bad words controller END        
+  }
+ //-->
+</script>
+</head>
+ 
+<body>
+Try to write a statement with the word "fuck"
+<form name="modulo">
+   <input type="text" name="mytext">
+   <input type="button" value="Filter" onClick="ProfanityFilter()">
+</form>
+ 
+</body>
+ 
+</html>
