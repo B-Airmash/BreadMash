@@ -12,6 +12,7 @@ BreadMash Version Log
      - Crowns For 1st 2nd & 3rd Place
 ### Plane Skins
 - WWII/Rotor Styled Planes
+- Skull Planes
 ### Flags
 - Removed Confederate Flag 
      - Replaced with Antifa
