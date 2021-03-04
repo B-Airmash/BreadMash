@@ -1,48 +1,46 @@
-_MAIN_STEPS_
-1.Upload A Picture-----------|
-2.Round Corners 11px---------|---> (https://imageonline.co/)
-3.Resize 80w x 60h-----------|
-4.get css data url (https://www.base64-image.de/)
-5.get iso code 
+Websites
+-
+[Pixlr](https://pixlr.com/editor/) - flagsbig.png editor
+
+[ImageOnline](https://imageonline.co/) - Image Resizer & Corner Rounder
+
+[Base-64](https://www.base64-image.de/) - Image Css Line Converter
 
 
-_PROCESS_OF_IT_ALL_
-#update css url 
--Add new CSS line of exact flag number in src/assets/flags.css
--Paste CSS Data URL from the base 64 in src/assets/flags.css 
-[e.g.]
-___________________________________________________________|                                                       
-}                                                          |
-                                                           |
-.flag.flag-example {                                       |
-    background-image: url("paste here")                    |
-}                                                          |
-___________________________________________________________|
--[MAKE SURE TO ADD " AT THE FRONT & END]
+# Steps
+Resize and Round Corners
+-
+To Resize I used ImageOnline (website above), same goes for the Corner Rounding.
 
+`
+Corner Rounded To: 10px,
+Resize to: 80w x 60h
+`
 
-#update flagsbig.png w/ exact x,y coordinates (x,y) (+84,+64)
--downloaded the file already Edited and uploaded it to the terminal upload page(https://vm4b.eastus.cloudapp.azure.com/upload/) 
--did this command: cd~/uploads
--this command: ls -al or ll for short
--did the command: mv (flagbig.png) ~/airmash-frontend/src/assets/flagsbig.png
+Update flagsbig.png w/ Exact x,y Coordinates
+-
+To Update the flagsbig.png I used Pixlr (website above). 
+I loaded in the flagsbig.png along with the new flag and added
 
+`
++84 from the flag on the left x's coordinate,
++64 from the flag on the top y's coordinate
+`
 
-#update iso protocol w/ country name, iso, and flag number 
-[e.g.]
-_______________________|
-'#': 'iso',            |
-'iso' : 'country name' |
-_______________________|
-
-
-#Update airmash in refugees/airmash-frontend/src/js/textures.js
-[e.g.]
-_____________|
-#[x,y,w,h]], |
-_____________|
-
-
-#hit npm run build all repos (clones) and delete screen and re-setup (ab-server)
-
-MISSION COMPLETE!!
+Once I was done with that, I uploaded to the terminal.
+I added the new flag, with the coordinates from flagsbig.png to Textures.js.
+`
+flag_#: [x, y, w, h,]];
+`
+Update Iso Protocol w/ Country Name, Iso, And Flag Number
+-
+I found the iso code with a google seach and added it to flags.ts.
+`
+#:'<code>'
+&
+'<code>':'<name of country>'
+`
+Update Css Url
+-
+I got the Css url using Base 64(link above) and added it to flags.css.
+`
