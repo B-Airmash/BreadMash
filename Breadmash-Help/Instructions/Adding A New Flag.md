@@ -44,3 +44,7 @@ Update Css Url
 -
 I got the Css url using Base 64(link above) and added it to flags.css.
 `
+} flag.etc.etc
+     background-image: Url <"css line here">
+}
+`
