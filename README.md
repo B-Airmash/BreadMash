@@ -3,16 +3,9 @@
 BreadMash Version Log
 -
 ## v.1 (unfinished)
-### Game Features
-- Map (All Thanks To [x_play & his theme from starmash](https://github.com/TakenOrNot/badassplanestheme))
-     - Beach (All Sand)
-     - Water is now a lighter shade of Blue
-     - Big Skull near South America 
+### Game Features 
 - MiniMap
      - Crowns For 1st 2nd & 3rd Place
-### Plane Skins
-- WWII/Rotor Styled Planes
-- Skull Planes
 ### Flags
 - Removed Confederate Flag 
      - Replaced with Antifa
